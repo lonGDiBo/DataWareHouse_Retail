@@ -13,6 +13,8 @@ Fact Sales:
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/a9b4cf17-3145-4ae8-8344-98b4a533057c)
 Fact Delivery:
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/2bb6b5eb-b247-4869-8ac1-82aee77d83c7)
+Constellation Schema:
+![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/6d15c7b8-16c4-4f01-8d78-ece21034b103)
 
 Tích hợp dữ liệu vào kho (SISS)
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/ae97b4e8-29e2-40ea-8e1c-b69324ae4adb)
