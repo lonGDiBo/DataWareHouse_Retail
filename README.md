@@ -1,6 +1,8 @@
 ### Giới thiệu dữ liệu:
   Bộ dữ liệu về chuỗi cung ứng của công ty DataCo Global. Gồm các giao dịch của công ty với khách hàng. Tập dữ liệu gồm 53 thuộc tính khác nhau, từ thông tin đặt hàng và vận chuyển đến thông tin bán hàng, 180.519 hàng và các tính năng bao gồm sự kết hợp giữa dữ liệu văn bản và dữ liệu số, chẳng hạn như vị trí đặt hàng và dữ liệu bán hàng số. Cụ thể có 24 cột ký tự và 28 cột số.
+  
   Data resource: https://data.mendeley.com/datasets/8gx2fvg2k6/5/files/72784be5-36d3-44fe-b75d-0edbf1999f65
+  
   + 24 cột ký tự và 28 cột số.
   + 180.519 (dòng) * 40 (cột)
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/029eacf7-5ca4-4213-87fd-762bc9b506a4)
