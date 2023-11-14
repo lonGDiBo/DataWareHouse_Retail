@@ -1,22 +1,27 @@
-### Giới thiệu dữ liệu:
-  Bộ dữ liệu về chuỗi cung ứng của công ty DataCo Global. Gồm các giao dịch của công ty với khách hàng. Tập dữ liệu gồm 53 thuộc tính khác nhau, từ thông tin đặt hàng và vận chuyển đến thông tin bán hàng, 180.519 hàng và các tính năng bao gồm sự kết hợp giữa dữ liệu văn bản và dữ liệu số, chẳng hạn như vị trí đặt hàng và dữ liệu bán hàng số. Cụ thể có 24 cột ký tự và 28 cột số.
+### Introduction:
+   DataCo Global's supply chain dataset. Includes the company's transactions with customers. The dataset includes 53 attributes ranging from order and shipping information to sales information, 180,519 rows, and features that include a mix of text and numeric data, such as location orders and sales data. Specifically, there are 24 character columns and 28 numeric columns.
   
   Data resource: https://data.mendeley.com/datasets/8gx2fvg2k6/5/files/72784be5-36d3-44fe-b75d-0edbf1999f65
   
-  + 24 cột ký tự và 28 cột số.
-  + 180.519 (dòng) * 40 (cột)
+   + 24 character columns and 28 numeric columns.
+   + 180,519 (rows) * 40 (columns)
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/029eacf7-5ca4-4213-87fd-762bc9b506a4)
 
-  Dựa vào tập dữ liệu thì chúng ta cần đưa ra các báo cáo về doanh số tổng quan của cũng như chi tiết của từng sản phẩm dựa theo từng thuộc tính khác nhau trong tập dữ liệu và đưa ra các nhận xét về cách vận hành của các phương thức vận chuyển từ đó cải thiện hiệu quả. Ngoài ra, còn có thể so sánh hiệu quả bán hàng của các đất nước và khu vực khác nhau.
+    Based on the data set, we need to provide reports on overall sales as well as details of each product based on each different attribute in the data set and make comments on how the product operates. transportation methods thereby improve efficiency. In addition, it is possible to compare the sales performance of different countries and regions.
+### Required
++ Visual studio code 2019
++ SQL Server Integration Services
++ SQL server - express 2019
++ PowerBI
++ ...
+### From those requirements, the data warehouse will have:
+• Two Fact tables include FactSales and FactDelivery, both of which are of type Transactions. Business process of each Fact version:
 
-### Từ các yêu cầu đó thì kho dữ liệu sẽ có:
-•	Hai bảng Fact gồm FactSales và FactDelivery cả hai đều thuộc loại Transactions. Business process của mỗi bản Fact:
+ FactSales: Used to analyze and report sales, profits and sales quantity of each product according to each attribute.
 
-	FactSales: Dùng để phân tích và báo cáo doanh số, lợi nhuận và số lượng bán ra của từng sản phẩm theo từng thuộc tính.
+ FactDelivery: Report on the activity of shipping orders to users
 
-	FactDelivery: Báo cáo về hoạt động của việc vận chuyển đơn hàng đến cho người dùng
-
-•	Các bảng Dim gồm có: DimDepartment, DimShippingMode, DimTime, DimMarket, DimRegion, DimSegment, DimCustomer, DimCountry, DimCity, DimCategory
+• Dim tables include: DimDepartment, DimShippingMode, DimTime, DimMarket, DimRegion, DimSegment, DimCustomer, DimCountry, DimCity, DimCategory
 
 Fact Sales: 
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/a9b4cf17-3145-4ae8-8344-98b4a533057c)
@@ -25,5 +30,24 @@ Fact Delivery:
 Constellation Schema:
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/6d15c7b8-16c4-4f01-8d78-ece21034b103)
 
-Tích hợp dữ liệu vào kho (SISS)
+Integrate data into the warehouse (SISS)
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/ae97b4e8-29e2-40ea-8e1c-b69324ae4adb)
+
+![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/a6ee31f3-d627-4405-a5ab-81780897ec85)
+
+
+### Data analysis
+After successfully ETL and building a data warehouse, we will use Power BI to visualize, analyze data, etc.
++ Revenue Dashboard
+
+![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/462cffd2-94b1-4d1d-baa6-6fb4d9bb4a49)
++ Shipping status Dashboard
+
+ ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/a944a2a5-ab41-437b-9a45-b7eee9a68186)
+
+ + Manage product Dashboard
+
+![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/c9454ce5-a052-4c62-8661-e6c322c9cb40)
+
+
+
