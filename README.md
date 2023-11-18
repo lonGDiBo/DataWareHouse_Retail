@@ -15,6 +15,8 @@
 + PowerBI
 + ...
 ### From those requirements, the data warehouse will have:
+- Using SSIS to built datawarehouse
+
 • Two Fact tables include FactSales and FactDelivery, both of which are of type Transactions. Business process of each Fact version:
 
  FactSales: Used to analyze and report sales, profits and sales quantity of each product according to each attribute.
