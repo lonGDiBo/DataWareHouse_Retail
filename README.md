@@ -1,3 +1,4 @@
+# Build an Ecommerce data warehouse using SSIS combined with Power BI for analysis
 ### Introduction:
    DataCo Global's supply chain dataset. Includes the company's transactions with customers. The dataset includes 53 attributes ranging from order and shipping information to sales information, 180,519 rows, and features that include a mix of text and numeric data, such as location orders and sales data. Specifically, there are 24 character columns and 28 numeric columns.
   
