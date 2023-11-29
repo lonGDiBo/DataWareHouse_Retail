@@ -53,3 +53,4 @@ After successfully ETL and building a data warehouse, we will use Power BI to vi
 ![image](https://github.com/lonGDiBo/DataWareHouse_Retail/assets/115699195/c9454ce5-a052-4c62-8661-e6c322c9cb40)
 Dashboard shows us the total quantity of products: you can choose to view the quantity by market, region, country and even by certain time. There is also a map chart to track the number of products sold in the region and compare between regions or between markets or countries.
 
+## Nice try
